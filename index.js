@@ -182,7 +182,7 @@ function displayDishes(dishArr, dishType){
 
             <div class="food-info">
                 <span class = "title">${name}</span>
-                <span class = "rating"><img src="../frontEnd2-contest2/Frame 28.png"><span>${rating}</span></span>
+                <span class = "rating"><img src="Frame 28.png"><span>${rating}</span></span>
             </div>
 
             <div class = "delivery-timing">
@@ -190,7 +190,7 @@ function displayDishes(dishArr, dishType){
                 
                 <div class = "like-div">
                 <span class = "like"><i class="fa-regular fa-heart fa-lg ${isLiked ? "liked":""}"></i></span>
-                <span class="coment"><img src="../frontEnd2-contest2/Vector (1).png"></span>
+                <span class="coment"><img src="Vector (1).png"></span>
                 </div>
             </div>
         </div>`;
