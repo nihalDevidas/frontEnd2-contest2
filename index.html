@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend2-contest2</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&family=Quattrocento:wght@700&family=Ruda&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../frontEnd2-contest2/index.css">
+</head>
+
+
+
+<body>
+    <div class="nav-vessel">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="../frontEnd2-contest2/Cookpal 1.svg" alt="" class = "nav-logo">
+            </div>
+            <ul class="link-con">
+                <li class = "active" role = "button">Home</li>
+                <li class = "no" role = "button">Explore</li>
+                <li class="no" role = "button" >Help</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="con-banner">
+            <img src="../frontEnd2-contest2/Banner.png" alt="no image">
+        </div>
+    </div>
+   
+    <div class="h-con" style="display:flex; justify-content: center;margin-top:1%;">
+        <h2 style = "width:90%">Search for recipies</h2>
+    </div>
+
+   <div class="search-vessel">
+    <div class="search-con">
+        <input type="text" class="imp" id = "nav-inp" placeholder="Search food">
+        <span class ="search-icon" id = "inp-icon"><i class="fa-solid fa-magnifying-glass ser"></i></i></span>
+    </div>
+   </div>
+
+    <div class="btn-vessel">
+        <div class="category">
+           <div class = "btn-divv">
+            <button class="btn-all btn btn1" id = "bt-all">All recepies ></button>
+            <button class="btn-veg btn btn2" id = "bt-veg">Veg recipies > </button>
+            <button class="btn-non-veg btn btn3" id = "bt-non-veg">Non-Veg recipies ></button>
+           </div>
+
+
+                <div class="filter-con" style="display:flex; align-items:center">
+                    <i class="fa-solid fa-filter fa-lg filtar " id="filterr"></i>
+                </div>
+        </div>
+    </div>
+     <div class="radio-con radio-disp" id="rad">
+        <input class = "radioInp" type = "radio" id = "r-inp-1" name = "rating"><label for="r-inp-1"> 4 and above</label><br>
+        <input class = "radioInp" type = "radio" id ="r-inp-2" name = "rating"><label for="r-inp-2"> below 4</label>
+     </div>
+    
+   
+ 
+    
+
+    <div class="parent-container">
+        <div class="container" id="main-container" name ="none">
+        </div> 
+    </div>  
+ 
+    
+
+ <script  src = "index.js"></script>
+   
+</body>
+</html>
